@@ -16,10 +16,10 @@ const Contact=()=>{
      e.preventDefault();
     send(
        
-      'service_30r217q',
-      'template_wy19huj',
+      '{service_id}',
+      '{template_id}',
       toSend,
-       'qRdWRaK1B0Jeng-U1',
+       '{unique_key}',
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
